@@ -1,0 +1,22 @@
+@import '../components/variables';
+
+body{
+    display: flex;
+    max-width: 1700px;
+    margin: auto;
+    
+    .left-container{
+        background-color: white;
+        width: $sidebarWidth;
+        min-height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .right-container{
+        width: calc(100vw - calc($sidebarWidth + 18px));
+        height: 100vh;
+        margin-left: auto;
+    }
+}

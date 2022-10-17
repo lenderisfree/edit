@@ -1,0 +1,98 @@
+body{
+    background-color: $gray-ball-bag;
+    font-family: $main_font-family;
+    .main-content-index{
+        width: 350px;
+        height: 480px;
+        margin: 60px auto;
+        background-color: white;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .logo-welcome{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .img-login-page{
+                width: 30px;
+                height: 30px;
+            }
+            .welcome-login{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+                .welcome-text{
+                    font-weight: bold;
+                }
+                .login-text{
+                    font-size: $main-font;
+                    color: $dark-gray-title;
+                }
+            }
+        }
+        .form-email{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            position: relative;
+            .email-pass{
+                display: flex;
+                background-color:$gray-ball-bag ;
+                padding: 7px;
+                border-radius: 8px;
+                gap: 15px;
+                input{
+                    width: 220px;
+                    border: none;
+                    background: transparent;
+                    
+                }
+                ::-webkit-input-placeholder{
+                    font-size: $small-font;  
+                    padding-left: 10px;
+                    
+                   
+                }
+            }
+            .text-recover{
+                font-size: $small-font;
+                color: $blue-ball;
+                position: absolute;
+                bottom: -18px ;
+                right: 43px;
+            }
+            .img-hide{
+                width: 15px;
+                height: 15px;
+                position: absolute;
+                right: 60px;
+                bottom: 12px;
+            }
+        }
+        .login{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            .logar{
+                font-size: $main-font;
+                .sign-up{
+                    color: #5570F1;
+                }
+            }
+            .blue-button{
+                width: 130px;
+                padding: 10px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+}

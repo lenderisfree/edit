@@ -1,0 +1,22 @@
+@media screen and(max-width: 770px){
+    body{
+        flex-direction: column;
+        gap: 10px;
+        .right-container, .left-container{
+            max-width: 430px;
+            margin: auto;
+        }
+        .left-container{
+            width: 100%;
+            justify-content: flex-start;
+            border-radius: 15px ;
+            height: 100%;
+            
+        }
+        .right-container{
+           .header_right-container{
+            display: none;
+            }                 
+        }
+    }  
+}

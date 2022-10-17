@@ -1,0 +1,119 @@
+@import '../components/variables';
+
+
+.left-header-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.left-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: $main-font;
+    font-family: $main_font-family;
+    
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .logo_tittle{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: $dashboard-title-font;
+        color: #45464E;
+    }
+    .dashboard_links{
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;       
+        a{
+            color: $gray-text;
+        }
+        
+        .img-link{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 15px;
+            img{
+                width: 20px;
+                height: 20px;
+            }
+        } 
+        .img-link-special{
+            width: 233px ;
+            height: 56px;
+            a{
+                color: white;  
+            }
+           
+        }   
+        .ball-number{
+            width: 24px;
+            height: 24px;
+            background-color: #FFCC91;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $main-font;
+        }
+    }
+    .footer_left-side{
+        .contact-suport_free-gift{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            
+            .contact-suport{
+                width: 232px;
+                height: 46px;
+                background:rgba(94, 99, 102, 0.1); ;
+                border-radius: 16px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 20px;
+            }
+
+            .free-gift{
+                width: 233px;
+                height: 82px;
+                background:rgba(255, 204, 145, 0.2); 
+                border-radius: 16px;  
+                position: relative;             
+            }
+
+            .logout{
+                display: flex;
+                gap: 10px;
+                position: relative;
+            }
+
+            .p_right-arrow{
+                position: absolute;
+                bottom: 5px;
+
+        
+            }
+            .p_small{
+                font-size: $small-font;
+                
+            }
+            .arrow{
+                width: 8px;
+                height: 8px;
+                position: absolute;
+                right: 0px;
+                top: 12px;
+            }
+            .logout{
+                color: #CC5F5F;;
+            }
+        }
+    }
+}
