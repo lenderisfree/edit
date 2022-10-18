@@ -6,17 +6,15 @@ body{
     margin: auto;
     
     .left-container{
-        background-color: white;
-        width: $sidebarWidth;
-        min-height: 100vh;
-        position: fixed;
-        top: 0;
-        left: 0;
+        background-color: rgb(255, 255, 255);
+        min-height: 110vh;
+        width: 296px;
+        
+        
     }
 
     .right-container{
-        width: calc(100vw - calc($sidebarWidth + 18px));
         height: 100vh;
-        margin-left: auto;
+        flex-grow: 1;
     }
 }

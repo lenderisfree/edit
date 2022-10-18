@@ -1,0 +1,126 @@
+.purple-box{
+    display: flex;
+    .box-marketing-percent{
+        text-align: flex-end;
+    }
+    .blue-marketing-box{
+        background-color: $blue-box-marketing;
+        height: 150px;
+        width: 25%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 3px;
+        font-weight: bold;
+    }
+    .purple-marketing-box{
+        background-color: $purple-ball;
+        height: 150px;
+        width: 25%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 3px;
+        font-weight: bold;
+    }
+    .orange-marketing-box{
+        background-color: $orange-box-marketing;
+        height: 150px;
+        width: 50%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding: 3px;
+        font-weight: bold;
+    }
+    
+}
+
+.graphic-bars-content{
+    .bars-content-10{
+        background-image: linear-gradient(to top, #5570F1 80%, #EEF0FA 20%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+}
+    .bars-content-11{
+        background-image: linear-gradient(to top, #5570F1 40%, #EEF0FA 40%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+    }
+
+    .bars-content-12{
+        background-color: #5570F1;
+        background-image: linear-gradient(to top, #5570F1 65%, #EEF0FA 65%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+    }
+    .bars-content-13{
+        background-color: #5570F1;
+        background-image: linear-gradient(to top, #5570F1 20%, #EEF0FA 20%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+    }
+    .bars-content-14{
+        background-color: #5570F1;
+        background-image: linear-gradient(to top, #5570F1 85%, #EEF0FA 85%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+    }
+    .bars-content-15{
+        background-color: #5570F1;
+        background-image: linear-gradient(to top, #5570F1 45%, #EEF0FA 45%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+    }
+    .bars-content-16{
+        background-color: #5570F1;
+        background-image: linear-gradient(to top, #5570F1 80%, #EEF0FA 80%);
+        width: 12px;
+        height: 160px;
+        border-radius: 8px;
+
+    }
+
+}
+
+.iphone-content{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(174, 172, 172, 0.214);
+    .image-iphone{
+        width: 40px;
+        height: 40px;
+    }
+   .iphone-date{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+    .date{
+        display: flex;
+        justify-content: space-between;  
+    }
+    .value-iphone{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .iphone_bold-value{
+            font-weight: bold;
+        }
+    }
+   }
+}
+
